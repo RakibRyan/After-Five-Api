@@ -8,7 +8,7 @@ Based on "one too many api" (thanks to the people) with some changes & fixes. At
 
 use the joker mod Rule Breaker for seamless integration. Designed to work with Steamodded and modded Balatro setups.
 
-#Features
+##Features
 
 Increase playable hand size dynamically
 
@@ -22,7 +22,7 @@ Compatible with Steamodded
 
 Lightweight implementation
 
-#Preview
+##Preview
 
 Hands
 
@@ -47,7 +47,7 @@ Mod Showcase
 ![Preview 5](preview/5.jpg)
 
 
-#Installation
+##Installation
 
 requirements:
 
@@ -64,20 +64,20 @@ Place the mod folder inside your Balatro mods directory.
 
 Launch the game.
 
-#Example
+##Example
 
 The Rule Breaker Joker increases the maximum selectable cards by +1.
 
 Multiple copies stack together.
 
 
-#Compatibility & recommendations 
+##Compatibility & recommendations 
 
 it should be compatible with most mods as long as they Don't override core game logic. 
 For best experience use 6 suits mod.
 
 
-#Credits
+##Credits
 
 Created for Balatro modding and custom gameplay experimentation.
 
