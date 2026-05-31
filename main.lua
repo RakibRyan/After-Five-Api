@@ -165,6 +165,7 @@ local ENABLED_HAND_PARTS = {
     '_6',
     's_flush',
     's_straight'
+    '_7'
 }
 
 sendDebugMessage("Loading Hand Parts...", 'OneTooMany')
@@ -190,6 +191,7 @@ local ENABLED_HANDS = {
     'Artifact', 
     'spectrum', 
     'test', 
+    '7oak',
 }
 
 sendDebugMessage("Loading Hand Types...", 'OneTooMany')
