@@ -108,6 +108,7 @@ return {
         },
         poker_hands = {
             ["mxms_6oak"] = "Six of a Kind",
+            ["mxms_7oak"] = "Seven of a Kind",
             ["mxms_double_triple"] = "Double Triple",
             ["mxms_f_6oak"] = "Flush Six",
             ["mxms_f_double_triple"] = "Flush Double Triple",
@@ -123,6 +124,9 @@ return {
         poker_hand_descriptions = {
             ["mxms_6oak"] = {
                 "6 cards with the same rank"
+            },
+            ["mxms_7oak"] = {
+                "7 cards with the same rank"
             },
             ["mxms_double_triple"] = {
                 "Two 3 of a Kinds"
@@ -167,3 +171,4 @@ return {
         }
     }
 }
+

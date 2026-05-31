@@ -164,7 +164,7 @@ sendDebugMessage("", 'OneTooMany')
 local ENABLED_HAND_PARTS = {
     '_6',
     's_flush',
-    's_straight'
+    's_straight',
     '_7'
 }
 
