@@ -33,10 +33,10 @@ SMODS.Consumable {
         }
     end,
     in_pool = function(self, args)
-        if (G.GAME and G.GAME.starting_params.play_limit >= 6) then
+        -- Validates against the hand's visibility state, mirroring vanilla secret hands
+        if G.GAME and G.GAME.hands['mxms_f_three_pair'].visible then
             return true
         end
-
         return false
     end,
     set_card_type_badge = function(self, card, badges)
@@ -44,3 +44,4 @@ SMODS.Consumable {
             nil, 1.2)
     end
 }
+
